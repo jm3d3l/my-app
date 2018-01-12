@@ -1,0 +1,34 @@
+<div fxLayout fxLayoutAlign="center center">  
+ 
+    <mat-card class="card">
+        <h2 color="primary">Accessories</h2>
+
+    <mat-card-content class="card-content" fxLayoutAlign="center center">
+
+      <div class="content" fxFlexAlign="center">
+
+          <li *ngFor="let product of products; let i = index" (click)="onClick(product)">
+
+              <div class="img-layout" fxLayout="column" fxLayoutGap="20px">
+
+                <img fxFlexAlign="center" class="img-style" src="{{rest._url+''+product.prod}}">
+
+                <p class="dest-style">{{product.item}}</p>
+
+                <div class="img-details" fxLayout="column" fxFlexAlign="center" fxLayoutGap="5px"> 
+                    <p><strong>price:</strong> <span>{{product.price || curency}}</span></p>
+                    <p><strong>Description:</strong>  {{product.description}}</p>
+                    <button fxFlexAlign="center" mat-button full><mat-icon>add_shopping_cart</mat-icon></button>
+                </div>
+              </div>       
+            </li>
+      </div>
+    </mat-card-content>
+  </mat-card>
+
+  
+  </div>
+
+  <div class="item-selected" *ngIf="selectedIndex" >
+    you added<strong> {{selectedIndex.item}} {{selectedIndex.price}}</strong>
+  </div>

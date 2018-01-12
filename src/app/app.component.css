@@ -1,0 +1,42 @@
+.nav-body{
+    margin: 0px;
+}
+/* .mat-icon.accessories{
+    height: 65px;
+    width: 65px;
+}
+.mat-icon.spareparts{
+    height: 70px;
+    width: 70px;
+}
+.mat-icon.motor{
+    height: 68px;
+    width: 68px;
+} */
+.mat-icon.svgicon{
+    height: 50px;
+    width: 50px;
+    box-shadow: 3px,2px;
+}
+
+/* .mat-icon.accessories{
+    height: 80px;
+    width: 80px;
+}
+.mat-icon.spareparts{
+    height: 100px;
+    width: 100px;
+}
+.mat-icon.motor{
+    height: 100px;
+    width: 100px;
+} */
+.mat-icon:hover{
+    height: 65px;
+    width: 65px;
+    border: none;
+    border-radius: 60px;
+    background: rgb(141, 204, 255);
+    transform: rotate(360deg);
+    color : rgb(220, 31, 172);
+}

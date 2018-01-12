@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+/* @import '~@angular/material/prebuilt-themes/deeppurple-amber.css'; */
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.blank-space{
+    flex: auto 1 1;
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin: 0 !important;
+}
+body{
+    background: #41a4f4;
+}

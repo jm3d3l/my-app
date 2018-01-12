@@ -1,0 +1,14 @@
+.blank-space{
+    flex: 1 1 auto;
+}
+.mat-icon.login{
+    height: 45px;
+    width: 45px;
+}
+.mat-icon.login:hover{
+    height: 50px;
+    width: 50px;
+}
+.img-style{
+    margin-left: 5px;
+}
